@@ -1,0 +1,64 @@
+.ban {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 20px 0px;
+  background-color: rgb(196 226 255);
+  height: 26ch;
+}
+
+.ban-container {
+  display: flex;
+  max-width: 90vw;
+}
+
+.ban-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+}
+
+.ban-content > h2 {
+  font-size: 4rem;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(8, 8, 8, 1);
+  font-weight: 450;
+  line-height: 4rem;
+  margin-right: 20px;
+}
+
+.ban-content > h6 {
+  margin: -10px 75px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.ban-content > button {
+  margin-right: auto;
+  margin-left: 50px;
+  padding: 10px 25px;
+  border-radius: 33px;
+  font-size: 18px;
+  border: 1px solid rgba(8, 8, 8, 1);
+  background-color: #fff;
+  color: rgba(8, 8, 8, 1);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .ban-content > h3 {
+    font-size: 3.8rem;
+    margin: 0px 10px;
+  }
+
+  .ban-content > h6 {
+    margin: 20px 20px;
+    font-size: 20px;
+  }
+  .ban-content > button {
+    margin-right: auto;
+    margin-left: 20px;
+  }
+}

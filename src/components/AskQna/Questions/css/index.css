@@ -1,0 +1,13 @@
+.ask-index {
+  min-width: fit-content;
+  display: flex;
+
+  min-height: 100vh;
+}
+
+.ask-index-content {
+  display: flex;
+  width: 100%;
+
+  justify-content: center;
+}

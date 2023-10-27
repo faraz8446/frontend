@@ -1,0 +1,36 @@
+/* .CsFirst {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    align-items: center;
+    flex-direction: column;
+  } */
+
+.Header {
+  margin: auto;
+  width: 50%;
+  border: 3px solid skyblue;
+  padding: 10px;
+}
+
+img {
+  width: 300px;
+  margin: 10px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px;
+  position: relative;
+  box-shadow: 0 0 5px rgba(75, 75, 75, 0.07);
+  z-index: 1;
+}
+
+.card-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 60px;
+  margin: 10px 0;
+  text-transform: capitalize;
+}

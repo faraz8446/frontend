@@ -1,0 +1,152 @@
+.main {
+  display: flex;
+  /* max-width: 700px; */
+  padding: 30px 10px;
+  flex: 0.75;
+  flex-direction: column;
+}
+.questions {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.search {
+  width: 100%;
+  margin-left: 350px;
+  margin-top: 10px;
+}
+.question {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0px;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+}
+.question > :hover {
+  /* opacity: 0.5; */
+  background-color: rgb(255, 255, 255);
+  transform: scale(1.03);
+  border: 2px solid rgb(250, 252, 252);
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main-top {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.main-top > h2 {
+  font-weight: 600;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+button {
+  padding: 10px;
+  background-color: #347c91;
+  color: #fff;
+  border: 2px solid #347c91;
+  outline: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.main-desc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.8);
+  justify-content: space-between;
+  padding: 0px 0px 10px 0px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 10px;
+  background-color: rgb(251, 252, 253);
+}
+
+.main-filter {
+  display: flex;
+  align-items: center;
+}
+
+.main-tabs {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  margin-right: 20px;
+  border-radius: 3px;
+}
+
+.main-tab {
+  padding: 5px;
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
+}
+.main-tab > a {
+  font-size: small;
+}
+
+.main-filter-item {
+  display: flex;
+  padding: 5px;
+  border: 1px solid #0095ff;
+  border-radius: 3px;
+  background-color: #86a1a817;
+  font-size: small;
+  align-items: center;
+  color: #007cd4;
+  cursor: pointer;
+}
+
+pre {
+  display: flex;
+  width: 90px;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    /* display: flex;
+  max-width: 700px;
+  padding: 30px 10px; */
+    flex: 0.6;
+  }
+}
+
+.Filter {
+  text-align: center;
+}
+
+.Filter-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Filter-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Filter-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
